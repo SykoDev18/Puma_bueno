@@ -3,6 +3,7 @@ import '../styles/Welcome.css';
 import Sponsor from './patrocinadores/Sponsor';
 import Footer from './Footer/Footer';
 import About from './About us/About';
+import Aviso from './Avisos/Aviso';
 
 const Welcome = () => {
   return (
@@ -30,8 +31,15 @@ const Welcome = () => {
         <Sponsor />
       </div>
 
+      {/* Componente Avisos */}
+      <div className="avisos-container">
+        <Aviso />
+      </div>
+
       {/* Componente About */}
-      <About />
+      <div className="about-us-section">
+        <About />
+      </div>
 
       {/* Componente Footer */}
       <Footer />
