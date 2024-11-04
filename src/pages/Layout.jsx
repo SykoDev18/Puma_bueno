@@ -9,7 +9,7 @@ const Layout = ({children}) => {
         <Navbar/>
         <div className='section1'></div>
         <div className="columns" style={{minHeight: "90vh", backgroundColor: '#ffffff'}} > 
-            <div className="column" style={{ backgroundColor: '#f0f0f0', opacity: 0.9 }}>
+            <div className="column" style={{ backgroundColor: '#0A0A0A', opacity: 0.9 }}>
                 <main>{children}</main>
             </div>               
         </div>

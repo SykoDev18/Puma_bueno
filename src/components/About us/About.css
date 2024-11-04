@@ -3,7 +3,7 @@
     align-items: center;
     justify-content: center;
     padding: 40px 20px;
-    background-color: #f5f5f5;
+    background-color: #0A0A0A;
     font-family: Arial, sans-serif;
   }
   
@@ -15,14 +15,14 @@
   
   .about-us h2 {
     font-size: 2em;
-    color: #333;
+    color: #E3B04B;
     font-weight: bold;
     margin-bottom: 15px;
   }
   
   .about-us p {
     font-size: 1.1em;
-    color: #555;
+    color: #f1f1f1;
     line-height: 1.6;
   }
   
