@@ -66,7 +66,10 @@ a{
     font-size: 3em;
     font-weight: bold;
   }
-  
+
+  .yellow-text {
+    color: #E3B04B;
+}
 
   .sponsor-section {
     margin: 40px 0; 

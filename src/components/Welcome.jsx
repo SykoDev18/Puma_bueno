@@ -22,7 +22,7 @@ const Welcome = () => {
         ></iframe>
 
         <div className="content">
-          <h1>RETO PUMA BIKE</h1>
+        <h1>RETO <span className="yellow-text">PUMA</span> BIKE</h1>
         </div>
       </div>
 

@@ -1,4 +1,12 @@
 
+.body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #abb1bf;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 .input2 {
     background-color: #f0f0f0;
     border: 1px solid #cccccc48; 

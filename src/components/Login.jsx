@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { LoginUser, reset } from "../features/authSlice";
 import "../styles/Login.css"; 
 import { IoMail, IoLockClosed, IoLogIn } from "react-icons/io5"; 
+import { MdWidthFull } from 'react-icons/md';
 
 const Login = () => {
   const [email, setEmail] = useState("");
@@ -27,12 +28,14 @@ const Login = () => {
     };
 
   return (
-    <section className="hero has-background-grey-light is-fullwidht" style={{ padding: '91px' }}>
+    <div className='body'>
+    <section className="hero has-background-grey-light is-fullwidht" style={{ padding: '91px', marginRight: "280px" ,backgroundColor: '#0A0A0A'}}>
       <div className="hero-body">
-        <div className="container" style={{minHeight: "58vh"}}>
+        <div className="container" style={{minHeight: "60vh"}} >
           <div className="columns is-centered">
             <div className="column is-4">             
               <form 
+                style={{ width: "400px", backgroundColor: '#0A0A0A'}}
                 onSubmit={Auth}
                 className='box has-background-light has-text-dark'
               >              
@@ -81,6 +84,7 @@ const Login = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
