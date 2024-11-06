@@ -82,8 +82,7 @@ const Login = () => {
                     <img src={image2} alt="Imagen 2" />
                 </div>
             </Slider>
-            <p className="eslogan">¡Vive la emoción del Reto Puma! Únete a nosotros y demuestra tu pasión por el ciclismo.<br/>
-                    ¡Acepta el desafío y pedalea hacia la victoria!
+            <p className="eslogan">ATRÉVETE A RECORRERLO
             </p>
         </div>
             <div className="form">
@@ -112,7 +111,7 @@ const Login = () => {
                         {/* Campo de contraseña */}
                         <div className="input-2">
                             <div className="textInputWrapper">
-                                <label htmlFor="password">Ingresa tu contraseña:</label>
+                                <label htmlFor="password" className='passwordlabel'>Ingresa tu contraseña:</label>
                                 <div className="input-container">
                                     <input 
                                         id="password"

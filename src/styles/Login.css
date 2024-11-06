@@ -97,6 +97,16 @@
   margin-left: 10%;
 }
 
+.email-label{
+  color: #ffffff;
+  font-family: "Mulish-Bold", Helvetica;
+}
+
+.passwordlabel {
+  color: #ffffff;
+  font-family: "Mulish-Bold", Helvetica;
+}
+
 .form .text-wrapper {
   color: #ffffff;
   font-family: var(--title-font-family);
