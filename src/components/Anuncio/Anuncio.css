@@ -1,95 +1,84 @@
+.anuncio {
+  padding: 40px 20px;
+  background-color: #f8f9fa;
+}
+
 .anuncio-container {
-    padding: 40px 20px;
-    background-color: #f5f5f5; /* Puedes cambiar el color de fondo si lo deseas */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; /* Para adaptarse en pantallas pequeñas */
+}
+
+.anuncio-imagen {
+  flex: 1 1 300px; /* Crece y se reduce, base de 300px */
+  max-width: 500px;
+  padding: 20px;
+}
+
+.anuncio-imagen img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.anuncio-texto {
+  flex: 1 1 300px;
+  max-width: 500px;
+  padding: 20px;
+  text-align: center;
+}
+
+.anuncio-texto h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.anuncio-texto p {
+  font-size: 1.2em;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.anuncio-boton {
+  background-color: #E3B04B; /* Color similar al amarillo usado */
+  color: #fff;
+  padding: 15px 30px;
+  font-size: 1em;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.anuncio-boton:hover {
+  background-color: #c9943b;
+}
+
+/* Estilos Responsivos */
+@media (max-width: 768px) {
+  .anuncio-container {
+    flex-direction: column;
   }
-  
-  .anuncio-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    flex-wrap: wrap;
+
+  .anuncio-texto h1 {
+    font-size: 2em;
   }
-  
-  .anuncio-carousel {
-    flex: 1 1 500px;
-    max-width: 600px;
-    margin-right: 20px;
+}
+
+@media (max-width: 480px) {
+  .anuncio-texto h1 {
+    font-size: 1.8em;
   }
-  
-  .anuncio-carousel img {
-    width: 100%;
-    max-height: 400px; /* Establece la altura máxima que deseas */
-    object-fit: cover; /* Ajusta la imagen para que cubra todo el contenedor */
-    border-radius: 8px;
-  }
-  
-  .anuncio-text {
-    flex: 1 1 300px;
-    text-align: left;
-  }
-  
-  .anuncio-text h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-  }
-  
-  .anuncio-text p {
-    font-size: 1.2em;
-    color: #555;
-    margin-bottom: 30px;
-  }
-  
-  .anuncio-text button {
-    padding: 15px 30px;
+
+  .anuncio-texto p {
     font-size: 1em;
-    background-color: #E3B04B;
-    color: #fff;
-    border: none;
-    border-radius: 30px;
-    cursor: pointer;
   }
-  
-  .anuncio-text button:hover {
-    background-color: #cf9a3a;
+
+  .anuncio-boton {
+    padding: 12px 25px;
+    font-size: 0.9em;
   }
-  
-  /* Estilos responsivos */
-  @media (max-width: 768px) {
-    .anuncio-content {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .anuncio-carousel {
-      margin-right: 0;
-      margin-bottom: 30px;
-    }
-  
-    .anuncio-text {
-      text-align: center;
-    }
-  
-    .anuncio-text h1 {
-      font-size: 2em;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .anuncio-text h1 {
-      font-size: 1.8em;
-    }
-  
-    .anuncio-text p {
-      font-size: 1em;
-    }
-  
-    .anuncio-text button {
-      padding: 12px 25px;
-      font-size: 0.9em;
-    }
-  }
-  
+}
