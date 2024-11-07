@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import cyclingImage from '../../assets/mujeres-ciclistas-720x480.png';
+import cyclingImage from '../../assets/video.jpg';
 
 const About = () => {
   return (
@@ -23,3 +23,4 @@ const About = () => {
 };
 
 export default About;
+
