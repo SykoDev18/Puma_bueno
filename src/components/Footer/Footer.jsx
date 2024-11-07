@@ -16,7 +16,7 @@ const Footer = () => {
           <a href="#quienes-somos">QUIÉNES SOMOS</a>
         </nav>
         <p>
-          En Reto Puma Bike es una experiencia única que celebra la pasión por el ciclismo. Reunimos a ciclistas de todos los niveles, con eventos de calidad, competidores internacionales, inscripciones accesibles y una premiación emocionante. Es más que una competencia: es un desafío, una conexión y una celebración de cada kilómetro recorrido. <span className="highlight">Atrévete a recorrer el territorio puma.</span>
+          En Reto Puma Bike es una experiencia única que celebra la pasión por el ciclismo. Reunimos a ciclistas de todos los niveles, con eventos de calidad, competidores internacionales y nacionales, inscripciones accesibles y una premiación emocionante. Es más que una competencia: es un desafío, una conexión y una celebración de cada kilómetro recorrido. <span className="highlight">Atrévete a recorrer el territorio puma.</span>
         </p>
         <div className="footer-socials">
           <h3>Síguenos en nuestras redes sociales:</h3>
