@@ -8,6 +8,7 @@ import EditUser from "./pages/EditUser";
 import AddProduct from "./pages/AddProduct";
 import EditProduct from "./pages/EditProduct";
 import BuyProduct from "./pages/BuyProduct";
+import Resgistro from "./components/Register";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/products/add" element={<AddProduct />} />
           <Route path="/products/edit/:id" element={<EditProduct />} />
           <Route path="/products/buy/:id" element={<BuyProduct />} />
+          <Route path="/users/registro" element={<Resgistro />} />
         </Routes>
       </BrowserRouter>
     </div>

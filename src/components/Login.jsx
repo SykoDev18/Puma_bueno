@@ -44,18 +44,15 @@ const Login = () => {
 
     const PrevButton = ({ onClick }) => (
         <button className="prev-button" onClick={onClick}>
-            {/* Puedes añadir un icono o texto aquí */}
-            &#10094; {/* Este es un símbolo de flecha hacia la izquierda */}
+            ❮ {/* Este es un símbolo de flecha hacia la izquierda */}
         </button>
     );
     
     const NextButton = ({ onClick }) => (
         <button className="next-button" onClick={onClick}>
-            {/* Puedes añadir un icono o texto aquí */}
-            &#10095; {/* Este es un símbolo de flecha hacia la derecha */}
+            ❯ {/* Este es un símbolo de flecha hacia la derecha */}
         </button>
     );
-    
 
     // Configuración del carrusel
     const settings = {
@@ -68,30 +65,32 @@ const Login = () => {
         autoplaySpeed: 4000,
     };
 
+    const handleRegisterRedirect = () => {
+        navigate('/users/registro'); // Cambia '/registro' por la ruta a la que quieres redirigir
+    };
+
     return (
         <div className="main-container">
-        <div className="carrusel">
-            <Slider {...settings}
-            prevArrow={<PrevButton />}
-            nextArrow={<NextButton />}
-            style={{ height: '100%' }}> {/* Ajuste aquí */}
-                <div>
-                    <img src={image1} alt="Imagen 1" />
-                </div>
-                <div>
-                    <img src={image2} alt="Imagen 2" />
-                </div>
-            </Slider>
-            <p className="eslogan">ATRÉVETE A RECORRERLO
-            </p>
-        </div>
+            <div className="carrusel">
+                <Slider {...settings}
+                prevArrow={<PrevButton />}
+                nextArrow={<NextButton />}
+                style={{ height: '100%' }}>
+                    <div>
+                        <img src={image1} alt="Imagen 1" />
+                    </div>
+                    <div>
+                        <img src={image2} alt="Imagen 2" />
+                    </div>
+                </Slider>
+                <p className="eslogan">ATRÉVETE A RECORRERLO</p>
+            </div>
             <div className="form">
                 <div className="title-section">
                     <div className="text-wrapper">Bienvenido de vuelta!</div>
                 </div>
                 <form onSubmit={handleAuth}>
                     <div className="inputs-section">
-                        {/* Campo de correo electrónico */}
                         <div className="input2">
                             <div className="textInputWrapper">
                                 <label htmlFor="email" className="email-label">Correo:</label>
@@ -107,8 +106,6 @@ const Login = () => {
                                 />
                             </div>
                         </div>
-
-                        {/* Campo de contraseña */}
                         <div className="input-2">
                             <div className="textInputWrapper">
                                 <label htmlFor="password" className='passwordlabel'>Ingresa tu contraseña:</label>
@@ -133,20 +130,16 @@ const Login = () => {
                             <div className="text-wrapper-3">¿Has olvidado tu contraseña?</div>
                         </div>
                     </div>
-                    {/* Mensaje de error */}
                     {isError && <div className="error-message">{message}</div>}
                     <div className="footer-section">
-                        {/* Botón de envío */}
                         <button type="submit" className="buttom">
                             <div className="text-wrapper-4">
                                 {isLoading ? 'Cargando...' : 'Iniciar sesión'}
                             </div>
                         </button>
-                        {/* Registro de cuenta */}
                         <p className="a-n-no-tienes-cuenta">
                             <span className="span">¿Aún no tienes cuenta? </span>
-                            {/* Para mandar al regidtro */}
-                            <span className="text-wrapper-5">Crea una ahora</span>
+                            <span className="text-wrapper-5" onClick={handleRegisterRedirect}>Crea una ahora</span>
                         </p>
                     </div>
                 </form>

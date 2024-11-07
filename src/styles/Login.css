@@ -335,6 +335,7 @@
   color: #ffffff;
   font-family: "Mulish-Bold", Helvetica;
   font-weight: 700;
+  cursor: pointer;
 }
 
 /* Media Queries */
