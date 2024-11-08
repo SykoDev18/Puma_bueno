@@ -5,6 +5,7 @@ import { LoginUser, reset } from "../features/authSlice";
 import eye from "../assets/eye.svg"; // importar imagenes
 import image1 from "../assets/img/img_1.jpeg";
 import image2 from "../assets/img/img_2.jpeg";
+import image3 from "../assets/img/img_3.jpg";
 import Slider from "react-slick"; // Importar Slider
 import "../styles/Login.css";
 import "slick-carousel/slick/slick.css"; 
@@ -81,6 +82,9 @@ const Login = () => {
                     </div>
                     <div>
                         <img src={image2} alt="Imagen 2" />
+                    </div>
+                    <div>
+                        <img src={image3} alt="Imagen 3" />
                     </div>
                 </Slider>
                 <p className="eslogan">ATRÉVETE A RECORRERLO</p>

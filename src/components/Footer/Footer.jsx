@@ -1,4 +1,5 @@
 import React from 'react';
+import { NavLink, useNavigate } from 'react-router-dom';
 import './Footer.css';
 import { FaInstagram, FaFacebook, FaYoutube } from 'react-icons/fa';
 
@@ -8,12 +9,13 @@ const Footer = () => {
       <div className="footer-container">
         <h2>RETO PUMA BIKE</h2>
         <nav className="footer-nav">
-          <a href="#inicio">INICIO</a>
+          <NavLink to="/">INICIO</NavLink>
           <a href="#ruta">RUTA</a>
           <a href="#inscripciones">INSCRIPCIONES</a>
           <a href="#resultados">RESULTADOS</a>
           <a href="#productos">PRODUCTOS</a>
-          <a href="#quienes-somos">QUIÉNES SOMOS</a>
+          <NavLink to="/categorias">CATEGORIAS</NavLink>
+          <a href="#quienes-somos">QUIENES SOMOS</a>
         </nav>
         <p>
           En Reto Puma Bike es una experiencia única que celebra la pasión por el ciclismo. Reunimos a ciclistas de todos los niveles, con eventos de calidad, competidores internacionales y nacionales, inscripciones accesibles y una premiación emocionante. Es más que una competencia: es un desafío, una conexión y una celebración de cada kilómetro recorrido. <span className="highlight">Atrévete a recorrer el territorio puma.</span>
@@ -68,5 +70,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
