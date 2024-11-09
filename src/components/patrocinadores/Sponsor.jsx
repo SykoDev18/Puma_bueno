@@ -9,6 +9,7 @@ import sponsor6 from "../../assets/PatrocinadoresIMG/logomagdalena.png";
 import sponsor7 from "../../assets/PatrocinadoresIMG/logonora.png";
 import sponsor8 from "../../assets/PatrocinadoresIMG/logopillos.png";
 import sponsor9 from "../../assets/PatrocinadoresIMG/logosubaru.png";
+import sponsor10 from "../../assets/PatrocinadoresIMG/Ninis.png";
 
 const sponsors = [
   sponsor1,
@@ -20,6 +21,7 @@ const sponsors = [
   sponsor7,
   sponsor8,
   sponsor9,
+  sponsor10,
 ];
 
 const Sponsor = () => {
