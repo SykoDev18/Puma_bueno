@@ -1,0 +1,58 @@
+.ruta-larga {
+  padding: 20px;
+}
+
+.ruta-contenido {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ruta-mapa {
+  flex: 1 1 300px;
+  min-width: 300px;
+}
+
+.ruta-info {
+  flex: 1 1 300px;
+  min-width: 300px;
+  margin-left: 20px;
+}
+
+.ruta-descripcion {
+  margin-bottom: 20px;
+}
+
+.ruta-info-columnas {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ruta-columna {
+  flex: 1 1 150px;
+  min-width: 150px;
+  margin-right: 20px;
+}
+
+.ruta-lista {
+  list-style-type: none; 
+  padding-left: 0;
+}
+
+.ruta-lista li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.ruta-icono {
+  margin-right: 8px;
+}
+
+.ruta-imagen {
+  margin-top: 20px;
+}
+
+.ruta-imagen img {
+  width: 100%;
+  height: auto;
+}

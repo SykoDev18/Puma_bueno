@@ -10,7 +10,9 @@ import EditProduct from "./pages/EditProduct";
 import BuyProduct from "./pages/BuyProduct";
 import Resgistro from "./components/Register";
 import Categorias from "./pages/Categories";
+import Ruta from "./pages/Ruta";
 import ScrollToTop from "./components/ScrollToTop";
+
 
 function App() {
   return (
@@ -29,6 +31,7 @@ function App() {
           <Route path="/products/buy/:id" element={<BuyProduct />} />
           <Route path="/users/registro" element={<Resgistro />} />
           <Route path="/categorias" element={<Categorias />} />
+          <Route path="/ruta" element={<Ruta />} />
         </Routes>
       </BrowserRouter>
     </div>
