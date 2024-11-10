@@ -40,7 +40,7 @@ const Welcome = () => {
       </div>
 
       {/* Componente About */}
-      <div className="about-us-section">
+      <div id= "quienes-somos"className="about-us-section">
         <About />
       </div>
       

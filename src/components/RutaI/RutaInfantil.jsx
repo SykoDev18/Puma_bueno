@@ -42,7 +42,7 @@ const RutaInfantil = () => {
         />
         <div className="ruta-info">
           <p className="ruta-descripcion">
-            Esta es una descripción de la Ruta Larga. Puedes reemplazar este texto con la descripción que desees.
+          Explora una desafiante ruta de 4.58 km con una altimetría de 74 metros, diseñada para ciclistas peques. 
           </p>
           <div className="ruta-info-columnas">
             {/* Primera columna */}

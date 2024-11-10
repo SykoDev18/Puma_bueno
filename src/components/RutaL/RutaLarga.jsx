@@ -44,7 +44,7 @@ const RutaLarga = () => {
         />
         <div className="ruta-info">
           <p className="ruta-descripcion">
-            Esta es una descripción de la Ruta Larga. Puedes reemplazar este texto con la descripción que desees.
+          Disfruta de una emocionante ruta de 63.4 km con impresionantes vistas y desafíos para ciclistas de todos los niveles.
           </p>
           <div className="ruta-info-columnas">
             {/* Primera columna */}

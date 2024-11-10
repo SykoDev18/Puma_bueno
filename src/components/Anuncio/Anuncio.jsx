@@ -1,6 +1,6 @@
 import React from 'react';
 import './Anuncio.css';
-import imagenAnuncio from '../../assets/Anuncio/jersey.jpg'; 
+import imagenAnuncio from '../../assets/Anuncio/jersey.png'; 
 
 const Anuncio = () => {
   return (

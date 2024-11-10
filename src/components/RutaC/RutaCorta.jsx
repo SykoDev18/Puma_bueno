@@ -43,7 +43,7 @@ const RutaCorta = () => {
       <div className="ruta-contenido">
         <div className="ruta-info">
           <p className="ruta-descripcion">
-            Esta es una descripción de la Ruta Larga. Puedes reemplazar este texto con la descripción que desees.
+          Explora una desafiante ruta de 40.6 km con una altimetría de 1189 metros, diseñada para ciclistas de todos los niveles. 
           </p>
           <div className="ruta-info-columnas">
             {/* Primera columna */}
